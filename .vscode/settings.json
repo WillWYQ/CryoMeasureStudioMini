@@ -3,7 +3,7 @@
   "idf.openOcdConfigs": [
     "board/esp32p4-builtin.cfg"
   ],
-  "idf.port": "detect",
+  "idf.port": "/dev/tty.usbmodem14601",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32p4"
   },
@@ -12,5 +12,6 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=/Users/wyqwillsleep/Library/Mobile Documents/com~apple~CloudDocs/Schoolwork/College/Course/2025 Fall/ECE Senior Design/CryoMeasureStudioMini/build"
-  ]
+  ],
+  "idf.flashType": "UART"
 }
