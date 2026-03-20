@@ -1,5 +1,8 @@
 idf_component_register(
-    SRCS "main.c"
+    SRCS
+        "main.c"
     INCLUDE_DIRS "."
-    REQUIRES TemperatureSystem
+    REQUIRES
+        TemperatureSystem
+        DisplaySystem
 )
